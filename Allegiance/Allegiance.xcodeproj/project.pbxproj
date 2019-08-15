@@ -54,14 +54,38 @@
 		1BC6F9072305B04F00854C7B /* Allegiance */ = {
 			isa = PBXGroup;
 			children = (
-				1BC6F9082305B04F00854C7B /* AppDelegate.swift */,
+				1BC6F91A2305B19800854C7B /* View Controller */,
+				1BC6F91B2305B1F700854C7B /* Storyboard */,
+				1BC6F91C2305B20300854C7B /* Resources */,
+			);
+			path = Allegiance;
+			sourceTree = "<group>";
+		};
+		1BC6F91A2305B19800854C7B /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
 				1BC6F90A2305B04F00854C7B /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		1BC6F91B2305B1F700854C7B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				1BC6F90C2305B04F00854C7B /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1BC6F91C2305B20300854C7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1BC6F90F2305B05000854C7B /* Assets.xcassets */,
+				1BC6F9082305B04F00854C7B /* AppDelegate.swift */,
 				1BC6F9112305B05000854C7B /* LaunchScreen.storyboard */,
 				1BC6F9142305B05000854C7B /* Info.plist */,
 			);
-			path = Allegiance;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4W7EQ4E4R;
-				INFOPLIST_FILE = Allegiance/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Allegiance/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4W7EQ4E4R;
-				INFOPLIST_FILE = Allegiance/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Allegiance/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
